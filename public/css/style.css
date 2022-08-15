@@ -1,0 +1,158 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+p{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+div.top-header{
+    padding: 5%;
+}
+
+header div.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+header nav{
+    font-size: 12px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 2%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+/* preguntar porque lo de la i*/
+div.burger-menu i{        
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 28px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 35px;
+}
+
+article div.main-article{
+    width: 100%;
+}
+
+
+.price{
+    font-size: 18px;
+}
+
+.discount{
+    font-size: 16px;
+    font-weight: normal;
+    color: #39b54a;
+}
+
+.description{
+    font-size: 16px;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+}
+
+main section article{
+    background-color: #fff;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i{
+    color: #39b54a;
+}
+
+
+
+
+
+
+
+footer .info-slide{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+footer div i{
+   color: #0044AA;
+   font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
