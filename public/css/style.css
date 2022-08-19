@@ -19,6 +19,10 @@ p{
 
 h3{
     font-size: 24px;
+    color: #666;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 
 div.top-header{
@@ -63,7 +67,7 @@ div.burger-menu{
     text-align: center;
 }
 
-/* preguntar porque lo de la i*/
+
 div.burger-menu i{        
     background-color: #0044AA;
     border-radius: 5px;
@@ -77,6 +81,9 @@ div.burger-menu i{
 
 article div.main-article{
     width: 100%;
+    padding-left: 15px;
+    border-top: solid 1px #ebebeb;
+    box-sizing: border-box;
 }
 
 
@@ -94,9 +101,10 @@ article div.main-article{
     font-size: 16px;
 }
 
-h3,
 .description{
     color: #666;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 section.banner img{
@@ -105,10 +113,13 @@ section.banner img{
 
 main{
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main section article{
     background-color: #fff;
+    margin: 15px;
 }
 
 main section article img{
@@ -117,7 +128,59 @@ main section article img{
 
 main section article i{
     color: #39b54a;
+    margin-top: 10px;
 }
+
+header nav {
+    display: none;
+}
+
+
+
+
+
+header .top-header{
+    display: flex;
+}
+
+
+
+
+
+@media (min-width: 361px){
+    main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    div.burger-menu{
+        display: none;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .main-navbar li {
+        margin: 0px 10px;
+        padding: 5px;
+    }   
+}
+
+@media (min-width: 769px){
+    
+}
+
+
 
 
 
