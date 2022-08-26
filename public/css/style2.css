@@ -37,8 +37,6 @@ header{
     background-color: #EAC926;
 }
 
-
-
 header div.logo{
     width: 50%;
 }
@@ -46,8 +44,6 @@ header div.logo{
 header div.logo{
     padding: 10px;
 }
-
-
 
 header nav{
     font-size: 12px;
@@ -63,7 +59,7 @@ header ul li a{
     color: #000;
 }
 
-           /* SEARCH BAR */
+    /* SEARCH BAR */
 
 header .container{ 
     width: 100%;
@@ -72,14 +68,14 @@ header .container{
     align-items: center;
     justify-content: center;   
 }
-
+        
 header div .search-bar{
     width: 100%;
     max-width: 700px;
     display: flex;
     align-items: center;
 }
-
+        
 .search-bar input{
     background: white;
     flex: 1;
@@ -91,7 +87,7 @@ header div .search-bar{
     font-size: 14px;
     border-radius: 5px 0px 0px 5px;
 }
-
+        
 .search-bar button{
     background: white;
     width: 8%;
@@ -105,6 +101,21 @@ header div .search-bar{
     border-radius: 0px 5px 5px 0px;
 }
 
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 100%;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
 
 div.burger-menu{
     text-align: center;
@@ -127,106 +138,60 @@ div.offers{
     flex-wrap: wrap;
 }
 
-.price{
-    font-size: 18px;
-    width: 30%;
-}
-
-.discount{
-    width: 70%;
-}
-
-.discount,
-.description{
-    font-size: 16px;
-    font-weight: normal;
-}
-
-h3,
-.description{
-    color: #666;
-}
-
-.description{
-    display: none;
-    margin-top: 20px;
-}
-
-section.banner img{
-    width: 100%;
-}
-
-main{
-    width: 90%;
-    margin: 0 auto;
-}
-
-main section article{
-    background-color: #fff;    
-    margin: 10px 0px;
-}
-
-main section article img{
-    width: 100%;
-}
-
-main section article i,
-.discount{
-    color: #39b54a;
-}
-
-main section article i{
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    position: absolute;
-    right: 20px;
-    top: -15px;
-    transition: all 450ms;
-}
-
-main section h3{
-    margin: 20px 0px;
-}
-
-article div.main-article{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    border-top: 1px solid #ebebeb;
-    position: relative;
-    padding: 15px;
-}
 
 header nav {
     display: none;
 }
 
-main section article .description{
-    visibility: hidden;
+
+    /* CREAR CUENTA */
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-main section article:hover .description{
-    visibility: visible;
+main form input{
+    margin: 12px;
+    padding: 4px;
 }
 
-.products article {
-    transition: box-shadow 200ms;
+main .control-formulario{
+    background: white;
+    width: 80%;
+    max-width: 600px;
+    height: 50px;
+    border: 0;
+    height: 30px;
+    outline: none;
+    padding: 24px 20xp;
+    font-size: 14px;
+    border-radius: 5px;
 }
 
-.products article:hover {
-    box-shadow: 0px 0px 20px rgb(100, 100, 100);
+main form .botones-formulario1{
+    width: 80%;
+    max-width: 600px;
+    height: 35px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(27, 57, 176);
+    border-radius: 5px;
+    border: none;
 }
 
-main section article div i:hover {
-    transform: rotateZ(-90deg);
+main form .botones-formulario2{
+    width: 80%;
+    max-width: 600px;
+    height: 35px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(186, 43, 43);
+    border-radius: 5px;
+    border: none;
 }
+
 
 @media (max-width: 360px){
     header div.top-header p{
@@ -299,9 +264,7 @@ main section article div i:hover {
 
 
 @media (min-width: 769px){
-    main section div.products article{
-        width: 22%;
-    }
+   
 }
 
 
@@ -337,6 +300,14 @@ footer div i:hover{
       text-align: center;
     }
 }
+
+
+
+
+
+
+
+
 
 
 
