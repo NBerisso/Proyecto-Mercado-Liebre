@@ -17,10 +17,13 @@ p{
     font-size: 12px;
 }
 
+
 div.top-header{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 5%;
+    width: 100%;
 }
 
 header .cuotas{
@@ -35,10 +38,6 @@ header .cuotas{
 
 header{
     background-color: #EAC926;
-}
-
-header div.logo{
-    width: 50%;
 }
 
 header div.logo{
@@ -160,7 +159,7 @@ main form input{
 main .control-formulario{
     background: white;
     width: 80%;
-    max-width: 600px;
+    max-width: 400px;
     height: 50px;
     border: 0;
     height: 30px;
@@ -172,7 +171,7 @@ main .control-formulario{
 
 main form .botones-formulario1{
     width: 80%;
-    max-width: 600px;
+    max-width: 400px;
     height: 35px;
     margin: 20px;
     color: white;
@@ -183,13 +182,41 @@ main form .botones-formulario1{
 
 main form .botones-formulario2{
     width: 80%;
-    max-width: 600px;
+    max-width: 400px;
     height: 35px;
     margin: 20px;
     color: white;
     background-color: rgb(186, 43, 43);
     border-radius: 5px;
     border: none;
+}
+
+
+            /* FOOTER */
+
+footer{
+    background-color: white;
+}
+
+footer div.info-slide, .copyright{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 20px 20px 20px;
+}
+
+footer div i{
+   color: #0044AA;
+   font-size: 30px;
+}
+
+footer div i:hover{
+    color: green;
+ }
+
+
+ main section article .description{
+    display: block;
 }
 
 
@@ -201,16 +228,27 @@ main form .botones-formulario2{
     }
 }
 
-
-@media (min-width: 361px){
-    main section article .description{
-        display: block;
+@media (max-width: 600px){
+    header div.logo{
+        width: 70%;
+        padding: 10px;
     }
+
+    header div.cuotas{
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px){
 
     div.burger-menu{
         display: none;
     }
 
+    header div.logo{
+        width: 50%;
+        padding: 10px;
+    }
     
     main section div.products{
         display: flex;
@@ -262,36 +300,11 @@ main form .botones-formulario2{
 
 
 
+@media (min-width: 992px){
+    main section div.products article{
+        width: 22%;
+    }
 
-@media (min-width: 769px){
-   
-}
-
-
-            /* FOOTER */
-
-footer{
-    background-color: white;
-}
-
-footer div.info-slide, .copyright{
-    width: 100%;
-    text-align: left;
-    margin: 10px;
-    padding: 5px 20px 20px 20px;
-}
-
-footer div i{
-   color: #0044AA;
-   font-size: 30px;
-}
-
-footer div i:hover{
-    color: green;
- }
-
-
-@media (min-width: 1000px){
     footer div.pie {
         display: flex;
     }
@@ -299,8 +312,11 @@ footer div i:hover{
     footer div.info-slide{
       text-align: center;
     }
-}
 
+    header .main-navbar{
+        font-size: 16px;
+    }
+}
 
 
 
