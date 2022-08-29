@@ -1,4 +1,5 @@
 
+const { application } = require('express');
 const express = require('express');
 const app = express();
 
@@ -25,3 +26,21 @@ app.get('/register', (req,res)=>{
 app.get('/login', (req,res)=>{
     res.sendFile(path.resolve(__dirname + '/views/login.html'));
 });
+
+app.post("/login", (req, res) => {
+    console.log("Ingresaste Correctamente!!");
+    res.redirect("/");
+});
+
+app.post("/register", (req, res) => {
+    console.log("Te Registraste Correctamente!!");
+    res.redirect("/");
+});
+
+
+
+
+
+
+
+
