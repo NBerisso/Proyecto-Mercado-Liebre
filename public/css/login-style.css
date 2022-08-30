@@ -225,15 +225,6 @@ footer div i:hover{
     display: block;
 }
 
-
-@media (max-width: 360px){
-    header div.top-header p{
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-    }
-}
-
 @media (max-width: 600px){
     header div.logo{
         width: 70%;
