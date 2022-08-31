@@ -81,7 +81,7 @@ header div .search-bar{
     border: 0;
     height: 30px;
     outline: none;
-    padding: 24px 20xp;
+    padding: 0px 0px 0px 8px;
     font-size: 14px;
     border-radius: 5px 0px 0px 5px;
 }
@@ -251,7 +251,7 @@ footer div i:hover{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 699px){
     header div.logo{
         width: 70%;
         padding: 10px;
@@ -262,7 +262,7 @@ footer div i:hover{
     }
 }
 
-@media (min-width: 601px){
+@media (min-width: 700px){
 
     div.burger-menu{
         display: none;
@@ -322,7 +322,6 @@ footer div i:hover{
 }
 
 
-
 @media (min-width: 992px){
     main section div.products article{
         width: 22%;
@@ -337,15 +336,15 @@ footer div i:hover{
     }
 
     header .main-navbar{
-        font-size: 16px;
+        font-size: 14px;
     }
-}
 
-@media (min-width: 1200px){
     header .top-header{
         padding: 30px;
     }
 }
+
+
 
 
 
